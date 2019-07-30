@@ -29,17 +29,17 @@ import Carousel from "react-native-snap-carousel";
 const data = [
   {
     url:
-      "https://laz-img-cdn.alicdn.com/images/ims-web/TB1Vsulbrj1gK0jSZFuXXcrHpXa.jpg_1200x1200.jpg",
+      "http://twinkleshoppingzone.com/wp-content/uploads/2019/05/TWSBackground.png",
     title: "Back to School"
   },
   {
     url:
-      "https://laz-img-cdn.alicdn.com/images/ims-web/TB1e_9HbBr0gK0jSZFnXXbRRXXa.jpg_1200x1200Q100.jpg_.webp",
+      "http://twinkleshoppingzone.com/wp-content/uploads/2019/05/TWSBackground.png",
     title: "Hot Deals"
   },
   {
     url:
-      "https://laz-img-cdn.alicdn.com/images/ims-web/TB1srkGblr0gK0jSZFnXXbRRXXa.jpg_1200x1200Q100.jpg_.webp",
+      "http://twinkleshoppingzone.com/wp-content/uploads/2019/05/TWSBackground.png",
     title: "Discounts"
   }
 ];
@@ -47,18 +47,18 @@ const data = [
 const data_product = [
   {
     url:
-      "https://static-01.daraz.pk/p/61bb45b7426ebb344034d8624fb4c83f.jpg_200x200q80-product.jpg_.webp",
-    title: "Headphones"
+      "https://twinkleshoppingzone.com/wp-content/uploads/2019/05/image3-2-e1562828199870.jpg",
+    title: "Unstitched"
   },
   {
     url:
-      "https://static-01.daraz.pk/p/7ef25b39cdda1440aad9f63abb2f353f.jpg_200x200q80-product.jpg_.webp",
-    title: "Mashrooms"
+      "https://twinkleshoppingzone.com/wp-content/uploads/2019/05/IMG_20190622_104303-416x428.jpg",
+    title: "Tasbeeh"
   },
   {
     url:
-      "https://static-01.daraz.pk/p/7ef25b39cdda1440aad9f63abb2f353f.jpg_200x200q80-product.jpg_.webp",
-    title: "Mashrooms"
+      "https://twinkleshoppingzone.com/wp-content/uploads/2019/06/ScarfBlack-e1562756568793.jpg",
+    title: "Scarf"
   }
 ];
 
@@ -80,9 +80,11 @@ const App = () => {
 
   function _renderProducts({ item }) {
     return (
-      <View style={{ margin: 10}}>
+      <View style={{ margin: 10, borderColor: "#4267b278",borderWidth: 2, alignItems: "center"}}>
+        <View style={{borderColor: "#4267b278", borderWidth: 2, margin: 5, padding:5}}>
         <Thumbnail height={50} large source={{uri: item.url}} />
-        <Text>{item.title}</Text>
+        </View>
+        <Text style={{margin: 10}}>{item.title}</Text>
       </View>
     );
   }
