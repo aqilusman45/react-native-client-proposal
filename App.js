@@ -47,18 +47,18 @@ const data = [
 const data_product = [
   {
     url:
-      "https://twinkleshoppingzone.com/wp-content/uploads/2019/05/image3-2-e1562828199870.jpg",
-    title: "Unstitched"
+      "https://twinkleshoppingzone.com/wp-content/uploads/2019/05/IslamicItems-5-e1562827811681.jpg",
+    title: "Islamic items"
   },
   {
     url:
-      "https://twinkleshoppingzone.com/wp-content/uploads/2019/05/IMG_20190622_104303-416x428.jpg",
-    title: "Tasbeeh"
+      "https://twinkleshoppingzone.com/wp-content/uploads/2019/05/LadiesIslamicClothes-e1562827793856.jpg",
+    title: "Ladies Clothing"
   },
   {
     url:
-      "https://twinkleshoppingzone.com/wp-content/uploads/2019/06/ScarfBlack-e1562756568793.jpg",
-    title: "Scarf"
+      "https://twinkleshoppingzone.com/wp-content/uploads/2019/05/GentsIslamicCloths-e1562827834264.jpg",
+    title: "Gents Clothing"
   }
 ];
 
@@ -120,7 +120,7 @@ const App = () => {
           />
         </View>
         <Text style={{fontSize: 20, textAlign: "left", textTransform: "uppercase", margin: 10 }}>
-        Trending
+        Shop
           </Text>
         <View style={{ margin: "auto", alignItems: "center" }}>
            
